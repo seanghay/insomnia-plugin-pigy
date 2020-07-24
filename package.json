@@ -1,0 +1,27 @@
+{
+  "name": "insomnia-plugin-pigy",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "keywords": [
+    "insomnia-plugin",
+    "insomnia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanghay/insomnia-plugin-pigy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seanghay/insomnia-plugin-pigy/issues"
+  },
+  "homepage": "https://github.com/seanghay/insomnia-plugin-pigy#readme",
+  "author": "Seanghay Yath <seanghay.dev@gmail.com>",
+  "insomnia": {
+    "name": "pgp-pigy",
+    "displayName": "Pigy",
+    "description": "Pigy PGP BouncyCastle Encrypt",
+    "applications": {
+      "core": "*"
+    }
+  }
+}
