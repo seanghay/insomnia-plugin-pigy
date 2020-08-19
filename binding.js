@@ -22,7 +22,7 @@ function encryptAsString(publicKeyPath, content) {
         
         result.stdout.on('end', () => {
             const content = Buffer.from(chunks).toString();
-            resolve(content);
+            resolve(content.trim());
         });
 
         result.stderr.on('data', (err) => {
