@@ -7,8 +7,8 @@ module.exports.templateTags = [
         description: 'Generate PGP Bouncycastle',
         args: [
             {
-                displayName: 'Content',
-                description: 'Content to be encrypted',
+                displayName: 'Contents',
+                description: 'Contents to be encrypted',
                 type: 'string',
                 defaultValue: ''
             },
